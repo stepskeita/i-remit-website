@@ -2,6 +2,14 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { termsSections } from "@/mock/data";
 
+export const metadata = {
+  title: "Terms of Service",
+  description:
+    "Review i-REMIT's terms of service governing access to and use of our remittance infrastructure platform and APIs.",
+  alternates: { canonical: "/terms-of-service" },
+  robots: { index: false, follow: false },
+};
+
 export default function TermsOfService() {
   return (
     <div className="min-h-screen bg-white">

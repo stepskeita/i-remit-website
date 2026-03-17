@@ -1,4 +1,13 @@
 import HeroSection from "@/components/landing/HeroSection";
+
+export const metadata = {
+  title: "i-REMIT — Remittance Infrastructure Platform",
+  description:
+    "i-REMIT is the all-in-one infrastructure platform for remittance operators — powering mobile wallets, FX trading, compliance automation, and global money transfers.",
+  alternates: {
+    canonical: "/",
+  },
+};
 import SocialProof from "@/components/landing/SocialProof";
 import PlatformOverview from "@/components/landing/PlatformOverview";
 import FeatureGrid from "@/components/landing/FeatureGrid";

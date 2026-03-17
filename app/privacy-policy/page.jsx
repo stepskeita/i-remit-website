@@ -2,6 +2,14 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { privacySections } from "@/mock/data";
 
+export const metadata = {
+  title: "Privacy Policy",
+  description:
+    "Read i-REMIT's privacy policy to understand how we collect, use, store, and protect your personal data across our remittance platform.",
+  alternates: { canonical: "/privacy-policy" },
+  robots: { index: false, follow: false },
+};
+
 export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-white">
